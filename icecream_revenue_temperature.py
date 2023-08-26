@@ -25,7 +25,7 @@ def main():
     if st.button('Click Here To Get Revenue'):
         revenue_show=revenue(temp)
     st.success(revenue_show)
-    st.subheader('Exploratory Data Analysis Done And Machine Learning Deployed By "Anubhav Kumar Gupta"')
+    st.subheader('Exploratory Data Analysis Done And Machine Learning Model Deployed By "Anubhav Kumar Gupta"')
 
 if __name__=="__main__":
     main()
