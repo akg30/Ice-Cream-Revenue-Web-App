@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 import pickle as pk
 
-loaded_model=pk.load(open('C:\Ice cream revenue/trained_model.sav','rb'))
+loaded_model=pk.load(open('trained_model.sav','rb'))
 
 def revenue(input_temperature):
     input_temperature_array=np.asarray(input_temperature)
