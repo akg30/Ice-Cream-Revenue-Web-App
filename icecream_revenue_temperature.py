@@ -22,7 +22,7 @@ def main():
     st.title('Ice Cream Sales Revenue Prediction Using Machine Learning')
     temp=st.number_input('Enter Temperature')
     revenue_show=' '
-    if st.button('Click Here To Get Revenue'):
+    if st.button('Click Here To Get Expected Revenue'):
         revenue_show=revenue(temp)
     st.success(revenue_show)
     st.subheader('Exploratory Data Analysis Done And Machine Learning Model Deployed By "Anubhav Kumar Gupta"')
