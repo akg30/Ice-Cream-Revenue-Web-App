@@ -19,7 +19,7 @@ def revenue(input_temperature):
     return 'The Revenue Based On Temperature {1} Celcius is {0} Rupees'.format(math.floor(revenue_predict),input_temperature)
 
 def main():
-    st.title('Ice Cream Sales Revenue Prediction By Temperature Using Machine Learning')
+    st.title('Ice Cream Sales Revenue Prediction Using Machine Learning')
     temp=st.number_input('Enter Temperature')
     revenue_show=' '
     if st.button('Click Here To Get Revenue'):
