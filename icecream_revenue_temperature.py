@@ -20,7 +20,7 @@ def revenue(input_temperature):
 
 def main():
     st.title('Ice Cream Sales Revenue Prediction Using Machine Learning')
-    temp=st.number_input('Enter Temperature')
+    temp=st.number_input('Enter Temperature In Celcius')
     revenue_show=' '
     if st.button('Click Here To Get Expected Revenue'):
         revenue_show=revenue(temp)
